@@ -52,6 +52,8 @@
     "build:local": "BUILD_MODE=local VUE_APP_PUBLIC_PATH=/ vue-cli-service build --mode app",
     "build:app": "BUILD_MODE=app VUE_APP_PUBLIC_PATH=/wbc-ui2/ vue-cli-service build --mode app",
     "deploy": "gh-pages -d dist-app"
+  
+
   },
   "dependencies": {
     "@mdi/font": "^7.4.47",
@@ -59,9 +61,7 @@
     "@vue-office/excel": "^1.7.11",
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.22.0",
-    "highlight.js": "^11.11.1",
     "markdown-it": "^14.1.0",
-    "markdown-it-anchor": "^9.2.0",
     "moment-timezone": "^0.5.34",
     "pdfvuer": "^1.10.0",
     "turndown": "^7.2.0",
@@ -84,6 +84,8 @@
     "babel-loader": "^9.2.1",
     "copy-webpack-plugin": "^13.0.0",
     "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.32.13",
+    "sass-loader": "^16.0.5",
     "vue-loader": "^15.11.1",
     "vue-template-compiler": "^2.6.14",
     "vuetify-loader": "^1.9.2"
