@@ -1,0 +1,99 @@
+{
+  "name": "wbc-ui2",
+  "version": "1.0.0",
+  "description": "WBC-UI2 is a modern, lightweight UI component library built with Vue.js. It provides a collection of reusable, customizable components designed to accelerate web application development. Built with Vuetify and Bootstrap, it ensures a responsive and consistent user experience across devices.",
+  "main": "dist/wbc-ui2.umd.js",
+  "module": "dist/wbc-ui2.esm.js",
+  "sideEffects": [
+    "*.css",
+    "*.scss"
+  ],
+  "keywords": [
+    "Vuejs",
+    "components",
+    "UI components",
+    "dynamic UI",
+    "JSON-driven UI",
+    "DOM manipulation",
+    "backend integration",
+    "Vuetify",
+    "bootstrap",
+    "event handling",
+    "reusable components"
+  ],
+  "author": {
+    "name": "Wissem Boughamoura",
+    "email": "wissemb11@gmail.com",
+    "url": "https://www.wi-bg.com"
+  },
+  "license": "MIT",
+  "homepage": "https://wissemb11.github.io/wbc-ui2/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wissemb11/wbc-ui2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wissemb11/wbc-ui2/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "packages.json"
+  ],
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && node clean-dist.js",
+    "build:local": "BUILD_MODE=local VUE_APP_PUBLIC_PATH=/ vue-cli-service build --mode app",
+    "build:app": "BUILD_MODE=app VUE_APP_PUBLIC_PATH=/wbc-ui2/ vue-cli-service build --mode app",
+    "deploy": "gh-pages -d dist-app"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vue-office/docx": "^1.6.2",
+    "@vue-office/excel": "^1.7.11",
+    "bootstrap": "^4.6.2",
+    "bootstrap-vue": "^2.22.0",
+    "highlight.js": "^11.11.1",
+    "markdown-it": "^14.1.0",
+    "markdown-it-anchor": "^9.2.0",
+    "moment-timezone": "^0.5.34",
+    "pdfvuer": "^1.10.0",
+    "turndown": "^7.2.0",
+    "vue": "^2.7.16",
+    "vue-codemirror": "^4.0.6",
+    "vue-cookies": "^1.8.3",
+    "vue-cryptojs": "^2.3.1",
+    "vue-doc-preview": "^0.3.2",
+    "vue-json-viewer": "^2.2.22",
+    "vue-moment": "^4.1.0",
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.5.3",
+    "vuetify": "^2.7.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "@babel/preset-env": "^7.26.9",
+    "@vue/cli-service": "^5.0.0",
+    "babel-loader": "^9.2.1",
+    "copy-webpack-plugin": "^13.0.0",
+    "mini-css-extract-plugin": "^2.9.2",
+    "vue-loader": "^15.11.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.9.2"
+  },
+  "tutorials": [
+    "https://www.wbc-ui.com/tutorials",
+    "https://codesandbox.io/s/wbc-ui2-example"
+  ],
+  "demoApps": [
+    "https://wbc-ui2-demo-app.vercel.app",
+    "https://github.com/wissemb11/wbc-ui2-demo"
+  ]
+}

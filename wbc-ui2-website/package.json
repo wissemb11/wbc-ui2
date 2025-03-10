@@ -1,0 +1,20 @@
+{
+  "name": "wbc-ui2-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test cified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@vuepress/bundler-vite": "^2.0.0-rc.20",
+    "@vuepress/bundler-webpack": "^2.0.0-rc.20",
+    "@vuepress/theme-default": "^2.0.0-rc.82"
+  }
+}

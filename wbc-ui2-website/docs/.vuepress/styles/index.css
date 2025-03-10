@@ -1,0 +1,15 @@
+/* docs/.vuepress/styles/index.css */
+.custom-home {
+  color: #ff6b6b; /* Red color for the Home link */
+  font-size: 1.2em; /* Increase font size */
+}
+/* docs/.vuepress/styles/index.css */
+.sidebar-link {
+  color: #3212b783; /* Change link color */
+  font-weight: bold; /* Make text bold */
+}
+
+.sidebar-link:hover {
+  color: #ff6b6b; /* Change link color on hover */
+}
+

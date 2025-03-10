@@ -1,0 +1,61 @@
+{
+  "name": "temp-vue2-wbc2-cli",
+  "version": "1.0.0",
+  "description": "A simple Vue CLI template showcasing the wbc-ui2 library with the WBC micro-component.",
+  "author": "Wissem Boughamoura wissemb11@gmail.com",
+  "homepage": "https://wissemb11.github.io/temp-vue2-wbc2-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wissemb11/temp-vue2-wbc2-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wissemb11/temp-vue2-wbc2-cli/issues"
+  },
+  "keywords": [
+    "vue",
+    "vue-cli",
+    "wbc-ui2",
+    "vuetify",
+    "bootstrap",
+    "micro-component"
+  ],
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^2.7.16",
+    "wbc-ui2": "file:../."
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^5.0.8"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "tutorial": "https://example.com/wbc-ui2-tutorial"
+}

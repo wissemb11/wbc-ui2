@@ -1,0 +1,39 @@
+{
+  "name": "temp-vue2-wbc2-cli",
+  "version": "1.0.0",
+  "description": "A simple Vue 2.7 template showcasing the wbc-ui2 library with the WBC micro-component.",
+  "author": "Wissem Boughamoura <your-email@example.com>",
+  "homepage": "https://wissemb11.github.io/temp-vue2-wbc2-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wissemb11/temp-vue2-wbc2-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wissemb11/temp-vue2-wbc2-cli/issues"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "wbc-ui2",
+    "vuetify",
+    "bootstrap",
+    "micro-component"
+  ],
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "vue": "^2.7.16",
+    "wbc-ui2": "file:../.",
+    "vue-template-compiler": "^2.7.16"
+  },
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

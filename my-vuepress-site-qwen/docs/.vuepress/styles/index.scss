@@ -1,0 +1,68 @@
+// /* docs/.vuepress/styles/index.scss */
+// .VPSidebar {
+//   .VPSidebarItem {
+//     margin: 6px 0;
+//     padding: 12px 24px;
+//     border-radius: 8px;
+//     transition: all 0.2s;
+
+//     &:hover {
+//       background: rgba(66, 185, 131, 0.1);
+//       transform: translateX(10px);
+//     }
+//   }
+
+//   .VPSidebarLink {
+//     color: var(--vp-c-text-1);
+//     font-weight: 500;
+
+//     &.active {
+//       color: var(--vp-c-brand);
+//       font-weight: 600;
+
+//       &::before {
+//         content: '';
+//         position: absolute;
+//         left: 0;
+//         top: 50%;
+//         transform: translate(-100%, -50%);
+//         width: 4px;
+//         height: 4px;
+//         background: var(--vp-c-brand);
+//         border-radius: 50%;
+//       }
+//     }
+//   }
+// }
+
+// docs/.vuepress/styles/index.scss
+
+/* Optional: Add hover effects or other overrides */
+.VPSidebarItem {
+  margin: 6px 0;
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateX(10px);
+  }
+}
+
+
+/* Custom link style */
+.custom-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #42b983; /* Green background */
+  color: white; /* White text */
+  font-weight: bold;
+  border-radius: 4px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.2s; /* Smooth hover effect */
+}
+
+.custom-link:hover {
+  background-color: #3aa876; /* Darker green on hover */
+}

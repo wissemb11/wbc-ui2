@@ -1,0 +1,41 @@
+// .vuepress/styles/index.scss
+
+/* Sidebar item styling */
+.sidebar-item {
+  margin: 8px 0;
+  padding: 4px 12px;
+  border-radius: 4px;
+  transition: all 0.2s;
+
+  &:hover {
+    background-color: rgba(66, 185, 131, 0.1);
+    color: var(--vp-sidebar-item-hover-color);
+  }
+}
+
+/* Active sidebar link */
+.sidebar-link.active {
+  color: var(--vp-sidebar-item-active-color);
+  font-weight: 600;
+  border-left: 2px solid #42b;
+  padding-left: 10px;
+}
+
+/* Add to .vuepress/styles/index.scss */
+.sidebar-link.active {
+  color: #423;
+  font-weight: bold;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: -12px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 4px;
+    background: #428893;
+    border-radius: 50%;
+  }
+}
