@@ -1,0 +1,70 @@
+{
+    "name": "wi_bg_com",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "prettier": "prettier --write 'src/**/*.{js,vue}'"
+    },
+    "dependencies": {
+                "@vue-office/docx": "^1.6.2",
+        "@vue-office/excel": "^1.7.11",
+        "@vue-office/pdf": "^2.0.7",
+        "bootstrap": "^5.2.3",
+        "buffer": "^6.0.3",
+        "font-awesome": "^4.7.0",
+        "pdfvuer": "^1.10.0",
+        "sass": "~1.32",
+        "sass-loader": "^12.3.0",
+        "vue": "^2.7.14",
+        "vue-cli-plugin-vuetify": "^2.4.7",
+        "vue-codemirror": "^4.0.6",
+        "vue-cookies": "^1.8.3",
+        "vue-demi": "^0.14.6",
+        "vue-doc-preview": "^0.3.2",
+        "vue-resource": "^1.5.3",
+        "vue-router": "^3.5.3",
+        "vue-underscore": "^0.1.4",
+        "vuetify-loader": "^1.9.2",
+        "vuex": "^3.6.2",
+        "wbjs-loader2": "^5.4.0"
+    },
+    "devDependencies": {
+        "@mdi/font": "^7.0.96",
+        "@mdi/js": "^6.5.95",
+        "@vue/cli-plugin-router": "^5.0.0",
+        "@vue/cli-plugin-vuex": "^5.0.0",
+        "@vue/cli-service": "^5.0.0",
+        "babel-eslint": "^10.0.3",
+        "typescript": "^5.2.2",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential",
+            "eslint:recommended"
+        ],
+        "rules": {},
+        "parserOptions": {
+            "parser": "babel-eslint"
+        }
+    },
+    "postcss": {
+        "plugins": {
+            "autoprefixer": {}
+        }
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ],
+    "keywords": [],
+    "description": ""
+}

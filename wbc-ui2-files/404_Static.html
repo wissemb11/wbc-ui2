@@ -1,0 +1,79 @@
+<!-- Instant Redirect to index.html (Recommended)
+This is the simplest and most effective for GitHub Pages SPA deployment. -->
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0;url=<%= BASE_URL %>">
+  <title>404 - Redirecting</title>
+</head>
+<body>
+  <script>
+    // Fallback redirect if meta refresh fails
+    window.location.href = '<%= BASE_URL %>';
+  </script>
+</body>
+</html>
+ -->
+
+
+<!-- 404 Page with Delayed Redirect
+This shows a "Page Not Found" message for a few seconds before redirecting.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="3;url=<%= BASE_URL %>">
+  <title>404 - Page Not Found</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 { color: #d32f2f; }
+    p { font-size: 18px; }
+  </style>
+</head>
+<body>
+  <h1>404 - Page Not Found</h1>
+  <p>Sorry, the page you're looking for doesn't exist.</p>
+  <p>Redirecting to the homepage in 3 seconds...</p>
+  <script>
+    setTimeout(() => {
+      window.location.href = '<%= BASE_URL %>';
+    }, 3000); // Redirects after 3 seconds
+  </script>
+</body>
+</html> -->
+
+
+<!-- Option 3: Static 404 Page (No Redirect)
+If you want a true "Not Found" page without redirecting:
+html
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>404 - Page Not Found</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 { color: #d32f2f; }
+    a { color: #1976d2; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <h1>404 - Page Not Found</h1>
+  <p>Sorry, the page you're looking for doesn't exist.</p>
+  <p><a href="/wbc-ui2/">Return to Homepage</a></p>
+</body>
+</html>
