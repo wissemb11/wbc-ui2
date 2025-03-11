@@ -24,9 +24,9 @@ ___CSS_LOADER_EXPORT___.push([module.id, "\n#apppp {\n  font-family: \"Avenir\",
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=script&lang=js":
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=script&lang=js":
 /*!***************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=script&lang=js ***!
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=script&lang=js ***!
   \***************************************************************************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -135,9 +135,9 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=template&id=64927930":
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=template&id=64927930":
 /*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=template&id=64927930 ***!
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=template&id=64927930 ***!
   \***********************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
@@ -207,7 +207,7 @@ if(false) {}
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _WBCVuetify_vue_vue_type_template_id_64927930__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WBCVuetify.vue?vue&type=template&id=64927930 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=template&id=64927930");
+/* harmony import */ var _WBCVuetify_vue_vue_type_template_id_64927930__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./WBCVuetify.vue?vue&type=template&id=64927930 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!./node_modules/@vue/vue-loader-v15/lib/loaders/templateLoader.js??ruleSet[1].rules[3]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=template&id=64927930");
 /* harmony import */ var _WBCVuetify_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./WBCVuetify.vue?vue&type=script&lang=js */ "./src/views/WBCVuetify.vue?vue&type=script&lang=js");
 /* harmony import */ var _WBCVuetify_vue_vue_type_style_index_0_id_64927930_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./WBCVuetify.vue?vue&type=style&index=0&id=64927930&lang=css */ "./src/views/WBCVuetify.vue?vue&type=style&index=0&id=64927930&lang=css");
 /* harmony import */ var _node_modules_vue_vue_loader_v15_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !../../node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js */ "./node_modules/@vue/vue-loader-v15/lib/runtime/componentNormalizer.js");
@@ -245,8 +245,8 @@ component.options.__file = "src/views/WBCVuetify.vue"
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_41_use_0_node_modules_vue_cli_service_lib_config_vue_loader_v15_resolve_compat_vue_loader_js_vue_loader_options_WBCVuetify_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!../../node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./WBCVuetify.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-41.use[0]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=script&lang=js");
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_41_use_0_node_modules_vue_cli_service_lib_config_vue_loader_v15_resolve_compat_vue_loader_js_vue_loader_options_WBCVuetify_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_42_use_0_node_modules_vue_cli_service_lib_config_vue_loader_v15_resolve_compat_vue_loader_js_vue_loader_options_WBCVuetify_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!../../node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./WBCVuetify.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-42.use[0]!./node_modules/@vue/cli-service/lib/config/vue-loader-v15-resolve-compat/vue-loader.js??vue-loader-options!./src/views/WBCVuetify.vue?vue&type=script&lang=js");
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_42_use_0_node_modules_vue_cli_service_lib_config_vue_loader_v15_resolve_compat_vue_loader_js_vue_loader_options_WBCVuetify_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
