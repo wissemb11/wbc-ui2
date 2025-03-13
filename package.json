@@ -60,6 +60,7 @@
     "bootstrap": "^4.6.2",
     "bootstrap-vue": "^2.22.0",
     "highlight.js": "^11.11.1",
+    "highlightjs-vue": "^1.0.0",
     "markdown-it": "^14.1.0",
     "markdown-it-anchor": "^9.2.0",
     "moment-timezone": "^0.5.34",
