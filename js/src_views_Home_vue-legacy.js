@@ -38,7 +38,7 @@ var render = function render() {
     }
   }, [_vm._v(" Go to About Page ")]), _c("WBC", {
     attrs: {
-      item: "./readme.md"
+      item: "./wiki/home/home.md"
     }
   })], 1);
 };
