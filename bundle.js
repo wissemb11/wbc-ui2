@@ -3592,12 +3592,22 @@ __webpack_require__.r(__webpack_exports__);
       menuItems: ["<~VTabs| ma-1>", "<VTab|red ma-2>", {
         options: {
           html: {
+            en: "Home",
+            fr: "Maison",
+            ar: "بيت"
+          },
+          icon: "mdi-home",
+          to: "/"
+        }
+      }, {
+        options: {
+          html: {
             en: "wbc vuetify",
             fr: "WBC Vuetify",
             ar: "WBC Vuetify"
           },
-          icon: "mdi-link-variant",
-          // Represents URLs/links
+          icon: "mdi-vuetify",
+          // Updated to Vuetify icon
           to: "/wbc/vuetify",
           tag: "router-link"
         }
@@ -3608,8 +3618,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "Bootstrap WBC",
             ar: "WBC Bootstrap"
           },
-          icon: "mdi-link-variant",
-          // Represents URLs/links
+          icon: "mdi-bootstrap",
+          // Updated to Bootstrap icon
           to: "/wbc/bootstrap",
           tag: "router-link"
         }
@@ -3621,7 +3631,7 @@ __webpack_require__.r(__webpack_exports__);
             ar: "WBC و Markdown"
           },
           icon: "mdi-markdown",
-          // Represents URLs/links
+          // No change, kept Markdown icon
           to: "/wbc/markdown",
           tag: "router-link"
         }
@@ -3632,8 +3642,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "Fichiers locaux WBC URL",
             ar: "ملفات WBC المحلية"
           },
-          icon: "mdi-link-variant",
-          // Represents URLs/links
+          icon: "mdi-folder",
+          // Changed to a folder icon
           to: "/wbc/files/local",
           tag: "router-link"
         }
@@ -3644,8 +3654,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "urlWbc",
             ar: "WBC urls"
           },
-          icon: "mdi-link-variant",
-          // Represents URLs/links
+          icon: "mdi-link",
+          // Changed to a link icon
           to: "/wbc/urls",
           tag: "router-link"
         }
@@ -3656,8 +3666,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "Méthodes WBC",
             ar: "طرق WBC"
           },
-          icon: "mdi-function",
-          // Represents methods/functions
+          icon: "mdi-clipboard-list",
+          // Changed to clipboard-list icon
           to: "/wbc/methods",
           tag: "router-link"
         }
@@ -3668,8 +3678,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "Composants externes du WBC",
             AR: "WBC المكونات الخارجية"
           },
-          icon: "mdi-puzzle",
-          // Represents external components/pieces
+          icon: "mdi-puzzle-outline",
+          // Changed to puzzle-outline
           to: "/wbc/ext-comps",
           tag: "router-link"
         }
@@ -3680,8 +3690,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "modules externes WBC",
             AR: "الوحدات الخارجية WBC"
           },
-          icon: "mdi-cube-outline",
-          // Represents modules/packages
+          icon: "mdi-cogs",
+          // Changed to cogs icon for modules
           to: "/wbc/ext-modules",
           tag: "router-link"
         }
@@ -3692,8 +3702,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "Gérer les fichiers",
             ar: "إدارة الملفات"
           },
-          icon: "mdi-folder-multiple",
-          // Represents file management
+          icon: "mdi-folder-edit",
+          // Changed to folder-edit icon
           to: "/wbc/manage/files",
           tag: "router-link"
         }
@@ -3704,8 +3714,8 @@ __webpack_require__.r(__webpack_exports__);
             fr: "WBC Langages",
             ar: "wbcLangages"
           },
-          icon: "mdi-code-tags",
-          // Represents programming languages
+          icon: "mdi-language-cpp",
+          // Changed to C++ language icon
           to: "/wbc/langage",
           tag: "router-link"
         }
@@ -3716,10 +3726,20 @@ __webpack_require__.r(__webpack_exports__);
             fr: "Dynamicwbc",
             ar: "ديناميكيWbc"
           },
-          icon: "mdi-autorenew",
-          // Represents dynamic or changing content
+          icon: "mdi-sync",
+          // Changed to sync icon for dynamic content
           to: "/wbc/dynamic",
           tag: "router-link"
+        }
+      }, {
+        options: {
+          html: {
+            en: "About",
+            fr: "À propos de",
+            ar: "عن"
+          },
+          icon: "mdi-information",
+          to: "/about"
         }
       }],
       menuItems0: ["<~VTabs| ma-1>", "<VTab|green ma-2>", {
@@ -4594,7 +4614,7 @@ var render = function render() {
       },
       expression: "drawer"
     }
-  }, [_c("v-list", _vm._l([].concat(_toConsumableArray(_vm.menuItems0.slice(2)), _toConsumableArray(_vm.menuItems.slice(2))), function (item, i) {
+  }, [_c("v-list", _vm._l(_toConsumableArray(_vm.menuItems.slice(2)), function (item, i) {
     var _item$options, _item$options2, _item$options3;
     return _c("v-list-item", {
       key: i,
@@ -4621,19 +4641,7 @@ var render = function render() {
         _vm.drawer = !_vm.drawer;
       }
     }
-  }), _c("v-toolbar-title", [_vm._v("My Vuetify App")])], 1), _c("v-main", [_c("div", {
-    directives: [{
-      name: "highlight",
-      rawName: "v-highlight"
-    }],
-    staticClass: "markdown-body"
-  }, [_c("pre", [_c("code", {
-    staticClass: "language-javascript"
-  }, [_vm._v('\n      console.log("Hello, world!");\n    ')])])]), _c("WBC", {
-    attrs: {
-      item: _vm.menuItems0
-    }
-  }), _c("v-container", [_c("WBC", {
+  }), _c("v-toolbar-title", [_vm._v("My Vuetify App")])], 1), _c("v-main", [_c("v-container", [_c("WBC", {
     attrs: {
       item: _vm.menuItems
     }
@@ -399505,6 +399513,7 @@ var map = {
 	"./wbcMethods/wbc-methods_qwen.md": "./src/public/wbcMethods/wbc-methods_qwen.md",
 	"./wbcMethods/wbc-ui2_entrypoint1_qwen.md": "./src/public/wbcMethods/wbc-ui2_entrypoint1_qwen.md",
 	"./wiki/home/home.md": "./src/public/wiki/home/home.md",
+	"./wiki/home/home0.md": "./src/public/wiki/home/home0.md",
 	"./wiki/wbcMarkdown/wbcMarkdown.md": "./src/public/wiki/wbcMarkdown/wbcMarkdown.md"
 };
 
@@ -400284,6 +400293,16 @@ module.exports = "readme = \"\"\"# WBC-UI2\n\n[![`npm version`](https://badge.fu
   \**************************************/
 /***/ (function(module) {
 
+module.exports = "# WBC-UI2\n\n[![`npm version`](https://badge.fury.io/js/wbc-ui2.svg)](https://www.npmjs.com/package/wbc-ui2)\n[![`License: MIT`](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n**WBC-UI2** is a lightweight Vue.js 2.7 library built around the `WBC` micro-component—a dynamic, reusable tool that generates, controls, and transforms HTML, CSS, JavaScript, DOM, and Vuetify using JS or JSON objects. Designed for flexibility, it integrates seamlessly with Vuetify and Bootstrap, offering a fast, programmatic way to build responsive UIs.\n\nAs a standalone module, **WBC-UI2** serves as the foundation for tools like **WBJS2** (view management) and **WB-Table2** (data visualization).\n\n---\n\n## Table of Contents\n\n1. [Features](#features)\n2. [Installation](#installation)\n3. [Usage](#usage)\n4. [Configuration](#configuration)\n5. [Examples](#examples)\n6. [Advanced Examples](#advanced-examples)\n7. [Troubleshooting](#troubleshooting)\n8. [Contributing](#contributing)\n9. [License](#license)\n10. [Contact](#contact)\n\n---\n\n## Features\n\n- **Reusable Components**: A set of pre-built Vue components for common UI elements.\n- **Vuetify Integration**: Seamless integration with Vuetify for advanced styling and theming.\n- **Bootstrap Compatibility**: Includes Bootstrap styles for additional flexibility.\n- **Lightweight**: Optimized for performance and minimal bundle size.\n- **Customizable**: Easily customize themes, icons, and other configurations.\n- **Vue 2.7 Support**: Fully compatible with Vue 2.7 and its ecosystem.\n- **Markdown Rendering**: Render Markdown content dynamically with support for local files and URLs.\n- **File Embedding**: Embed various file types (images, PDFs, videos, Excel sheets, etc.) effortlessly.\n- **Backend Communication**: Communicate with backend services directly through component properties.\n- **Cookie Management**: Manage cookies and storage within components.\n- **Dynamic Behavior**: Supports real-time updates and asynchronous actions via the `dive: true` property.\n\n---\n\n## Installation\n\nInstall **WBC-UI2** via npm or Yarn:\n\n```bash\nnpm install wbc-ui2\n```\n\nOr, using Yarn:\n\n```bash\nyarn add wbc-ui2\n```\n\n> **Note**: Ensure Vue 2.7 is installed in your project:\n>\n> ```bash\n> npm install vue@2.7.16 vue-template-compiler@2.7.16\n>```\n---\n\n## Usage\n\n### 1. Import the Library\n\nIn your main entry file (e.g., `main.js`), import and register **WBC-UI2**:\n\n```javascript\nimport Vue from 'vue';\nimport App from './App.vue';\nimport * as WBC_ui2_plugin from 'wbc-ui2';\n\nVue.config.productionTip = false;\n\n// Use the WBC-UI2 plugin\nVue.use(WBC_ui2_plugin);\n\nnew Vue({\n  render: (h) => h(App),\n}).`mount('#app');\n```\n\n### 2. Use the `WBC` Component\n\nUse the `WBC` component in your Vue templates with the `item` prop:\n\n```vue\n<template>\n   <div id=\"app\">\n     <!-- WBC-UI2 Component -->\n     <WBLink href=\"https://example.com\">Visit Example</WBLink>\n     <!-- Vuetify Component -->\n     <v-btn color=\"primary\">Primary Button</v-btn>\n   </div>\n</template>\n\n<script>\nexport default {\n  name: 'App',\n};\n</script>\n```\n\n---\n\n## Configuration\n\n### Customize Vuetify Theme\n\nOverride the default Vuetify theme during registration:\n\n```javascript\nimport Vue from 'vue';\nimport * as WBC_ui2_plugin from 'wbc-ui2';\n\nVue.use(WBC_ui2_plugin, {\n  theme: {\n    dark: true, // Enable dark mode\n    themes: {\n      light: {\n        primary: '#1976D2', // Custom primary color\n        secondary: '#424242',\n      },\n      dark: {\n        primary: '#3f51b5', // Custom dark mode primary color\n        secondary: '#424242',\n      },\n    },\n  },\n});\n```\n\n### Include Styles and Fonts\n\nEnsure Vuetify and Material Design Icons styles are loaded:\n\n```javascript\nimport 'vuetify/dist/vuetify.min.css';\nimport '@mdi/font/css/materialdesignicons.css';\n```\n\n---\n\n## Examples\n\n### Basic Button\n\nRender a simple button:\n\n```vue\n<template>\n   <WBC :item=\"{ comp: 'b-button', options: { props: { variant: 'danger' }, html: 'Danger Button' } }\"></WBC>\n</template>\n```\n\n### Mixed Content Card\n\nCombine Bootstrap and Vuetify components:\n\n```vue\n<template>\n   <WBC :item=\"[\n    '<~BCard|pink pa-1 ma-1 text-center>',\n    'BCard component 1||link1',\n    'BCard component 2||link2',\n    './document.pdf'\n  ]\"></WBC>\n</template>\n```\n\n### Multi-Language Text\n\nDisplay content in multiple languages:\n\n```vue\n<template>\n   <WBC :item=\"{\n    comp: 'div',\n    options: {\n      html: { en: 'Hello', fr: 'Bonjour', ar: 'مرحبا' }\n    }\n  }\"></WBC>\n</template>\n```\n\n---\n\n## Advanced Examples\n\n### 1. Dynamic Language Selection\n\nCreate a dropdown menu for selecting languages:\n\n```vue\n<template>\n   <WBC :item=\"{\n    dive: true,\n    comp: 'VSelect',\n    options: {\n      props: {\n        label: 'Select Language',\n        items: [\n          { text: 'English', value: 'en' },\n          { text: 'Français', value: 'fr' },\n          { text: 'العربية', value: 'ar' }\n        ]\n      }\n    }\n  }\"></WBC>\n</template>\n```\n\n### 2. Embedding Local Files\n\nEmbed an image from the `public` folder:\n\n```html\n<h1>Image File</h1>\n<WBC item=\"./jp0.jpg\"></WBC>\n```\n\nEmbed a Markdown file:\n\n```html\n<h1>Markdown File</h1>\n<WBC item=\"./md0.md\"></WBC>\n```\n\n### 3. Embedding Remote Content\n\nIntegrate online files by specifying URLs:\n\n- Embed a YouTube video:\n  ```html\n  <WBC item=\"https://youtu.be/aMkKs4l-dI0?list=RDaMkKs4l-dI0\"></WBC>\n  ```\n\n- Display an Excel sheet:\n  ```html\n  <WBC item=\"https://exinfm.com/excel%20files/cash_flow_model.xls\"></WBC>\n  ```\n\n- Show a remote PDF:\n  ```html\n  <WBC item=\"http://study.wi-bg.com/files/2023-2024/Session%202%20-%20%20Input%20check%20%20-%20A.U.%2023-24%20.pdf\"></WBC>\n  ```\n\n---\n\n## Troubleshooting\n\n### Common Issues and Solutions\n\n#### Issue 1: \"Module not found: Vue\"\n\n**Cause**: **WBC-UI2** requires Vue as a peer dependency.\n\n**Solution**:\n1. Install Vue 2.7:\n   ```bash\n   npm install vue@2.7.16 vue-template-compiler@2.7.16\n   ```\n2. Verify `peerDependencies` in the library's `package.json`:\n   ```json\n   \"peerDependencies\": {\n     \"vue\": \"^2.7.16\"\n   }\n   ```\n\n#### Issue 2: Missing Styles\n\n**Cause**: Vuetify or icon fonts aren’t loaded.\n\n**Solution**:\nExplicitly import Vuetify's CSS and Material Design Icons in the root app's `main.js`:\n```javascript\nimport 'vuetify/dist/vuetify.min.css';\nimport '@mdi/font/css/materialdesignicons.css';\n```\n\n---\n\n## Contributing\n\nContributions are welcome! To contribute:\n\n1. Fork the repository on GitHub.\n2. Create a branch for your feature or fix.\n3. Submit a pull request detailing your changes.\n\nFor more details, see the [Contribution Guidelines](CONTRIBUTING.md).\n\n---\n\n## License\n\n**WBC-UI2** is released under the [MIT License](LICENSE). Free to use, modify, and distribute in personal and commercial projects.\n\n---\n\n## Contact\n\nFor questions, feedback, or support, feel free to reach out:\n\n- **Author**: Wissem Boughamoura  \n- **Email**: [wissemb11@gmail.com](mailto:wissemb11@gmail.com)  \n- **GitHub**: [@wissemb11](https://github.com/wissemb11)  \n- **LinkedIn**: [linkedin.com/in/wissem-boughamoura](https://linkedin.com/in/wissem-boughamoura)  \n- **Website**: [wi-bg.com](https://wi-bg.com)\n\n---\n\n## External Resources\n\n- **Official Site**: [wbc-ui.com](https://wbc-ui.com)  \n- **Framework Documentation**: [wbjs.net](https://wbjs.net)  \n- **Interactive Demo**: [w-learn.org](https://w-learn.org)  \n- **GitHub Repository**: [https://github.com/wissemb11/wbc-ui2](https://github.com/wissemb11/wbc-ui2)  \n- **Live Demo**: [https://wissemb11.github.io/wbc-ui2/](https://wissemb11.github.io/wbc-ui2/)  \n\n\n---\n\n## Acknowledgments\n\n- [Vue.js](https://vuejs.org/) - Reactive framework.\n- [Vuetify](https://vuetifyjs.com/) - UI components and theming.\n- [Bootstrap](https://getbootstrap.com/) - Design utilities.\n\nReady to build? Start with these examples and dive into the [full docs at wbc-ui.com](https://wbc-ui.com)!\n\nThank you for using **WBC-UI2**!"
+
+/***/ }),
+
+/***/ "./src/public/wiki/home/home0.md":
+/*!***************************************!*\
+  !*** ./src/public/wiki/home/home0.md ***!
+  \***************************************/
+/***/ (function(module) {
+
 module.exports = "# WBC-UI2\n\n[![npm version](https://badge.fury.io/js/wbc-ui2.svg)](https://www.npmjs.com/package/wbc-ui2)\n[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n\n**WBC-UI2** is a modern, lightweight UI component library built with Vue.js 2.7. It provides reusable, customizable components like `<WBC>` to accelerate web application development. With Vuetify and Bootstrap integration, it ensures a responsive, consistent experience across devices. WBC-UI2 powers tools like `WBJS2` (view management) and `WB-Table2` (data visualization), offering dynamic UI generation and more.\n\n---\n\n## Table of Contents\n\n1. [Features](#features)\n2. [Installation](#installation)\n3. [Usage](#usage)\n4. [Examples](#examples)\n5. [Troubleshooting](#troubleshooting)\n6. [Contributing](#contributing)\n7. [License](#license)\n\n---\n\n## Features\n\n- **Dynamic UI Generation**: Build UIs programmatically with JS/JSON objects via `<WBC>`.\n- **Framework Hybridity**: Seamlessly mix Vuetify and Bootstrap styles.\n- **File Handling**: Embed local files (e.g., images, PDFs) or remote URLs.\n- **Backend Communication**: `<WBC>` connects directly to backend services.\n- **Storage & Cookies**: Manage cookies and local storage within components.\n- **Component Watching**: `<WBC>` monitors itself and nearby components for changes.\n- **Multi-Language Support**: Display content in multiple languages.\n- **Markdown Rendering**: Render Markdown text effortlessly.\n\n> **Explore More**: There’s much more to discover in `WBC-UI2`—check out the [full docs](https://wbc-ui.com)!\n\n---\n\n## Installation\n\nInstall `WBC-UI2` via npm or Yarn:\n\n```bash\nnpm install wbc-ui2\n```\n\nOr with Yarn:\n\n```bash\nyarn add wbc-ui2\n```\n\n> **Note**: Requires Vue 2.7:\n>\n> ```bash\n> npm install vue@2.7.16 vue-template-compiler@2.7.16\n> ```\n\n---\n\n## Usage\n\n### 1. Import the Library\n\nIn your `main.js`, register `WBC-UI2`:\n\n```javascript\nimport Vue from 'vue';\nimport App from './App.vue';\nimport * as WBC_ui2_plugin from 'wbc-ui2';\n\nVue.config.productionTip = false;\nVue.use(WBC_ui2_plugin);\n\nnew Vue({\n  render: h => h(App),\n}).mount('#app');\n```\n\n### 2. Use Components\n\nThe `<WBC>` component uses an `item` prop to create dynamic UIs:\n\n---\n\n## Examples\n\n### Basic Button\nA styled Bootstrap button:\n\n```javascript\nlet button = new Button\n```\n\n```vue\n<template>\n  <WBC :item=\"{ comp: 'b-button', options: { props: { variant: 'danger' }, html: 'Danger Button' } }\" />\n</template>\n```\n\n### Mixed Content Card\nCombine Bootstrap and Vuetify:\n\n[[li__fdfsdfsdf|red]]\n[[li__fdfsdfsdf/|red]]\n\n[[\n```html \n<template> \n<WBC :item=\"[ '<~BCard  pink pa-1>', 'BButton_ _View File yellow pa-1 https://example.com', './document.pdf' ]\" /> \n</template> \n```\n]]\n\n[[\n### Multi-Language Text\nDisplay multilingual content:\n]]\n[[\n```html\n<template>\n  <WBC :item=\"{\n    comp: 'div',\n    options: { html: { en: 'Hello', fr: 'Bonjour', ar: 'مرحبا' } }\n  }\">\n  </WBC>\n</template>\n```\n]]\n[[\n\n### Dynamic Select\nInteractive dropdown with `dive: true`:\n\n```vue\n<template>\n  <WBC :item=\"{\n    dive: true,\n    comp: 'VSelect',\n    options: {\n      props: {\n        label: 'Select Language',\n        items: [\n          { text: 'English', value: 'en' },\n          { text: 'Français', value: 'fr' },\n          { text: 'العربية', value: 'ar' }\n        ]\n      }\n    }\n  }\" />\n</template>\n```\n\n> **Tip**: `dive: true` enables runtime updates for dynamic behavior.\n\n### File Examples\nEmbed local or remote content:\n\n- **Local Image**: `<WBC item=\"./jp0.jpg\" />`\n- **Local PDF**: `<WBC item=\"./cv.pdf\" />`\n- **Remote Video**: `<WBC item=\"https://youtu.be/aMkKs4l-dI0\" />`\n\n### Styled HTML with `<WBHTml>`\nRender styled Markdown-like HTML:\n\n]]\n\n```vue\n<template>\n  <WBHTml html=\"li_ _stylish html of md text, classes and link && red pa-5 && https://example.com\" />\n</template>\n```\n\nEquivalent to:\n\n```html\n<li class=\"red pa-5\"><a href=\"https://example.com\">stylish html of md text, classes and link</a></li>\n```\n\nCompare with `<WBLink>`:\n\n```vue\n<template>\n  <WBLink href=\"https://example.com\">WBLink</WBLink>\n</template>\n```\n\n---\n\n## Troubleshooting\n\n### \"Module not found: Vue\"\n- **Solution**: Install Vue 2.7:\n  ```bash\n  npm install vue@2.7.16 vue-template-compiler@2.7.16\n  ```\n\n### Missing Styles\n- **Solution**: Add to `main.js`:\n  ```javascript\n  import 'vuetify/dist/vuetify.min.css';\n  import '@mdi/font/css/materialdesignicons.css';\n  ```\n\n---\n\n## License\n\n`WBC-UI2` is released under the [MIT License](https://wbc-ui.com/license). Free to use, modify, and distribute.\n\n---\n\n## Contact\n\nI’m Wissem Boughamoura, the founder of `WBC-UI2`. Reach out with questions or feedback:\n\n- **Email**: [wissemb1@gmail.com](mailto:wissemb1@gmail.com)\n- **LinkedIn**: [linkedin.com/in/wissem-boughamoura](https://linkedin.com/in/wissem-boughamoura)\n- **Website**: [wi-bg.com](https://wi-bg.com)\n- **GitHub**: [@wissemb11](https://github.com/wissemb11)\n\n---\n\n## Acknowledgments\n\n- [Vue.js](https://vuejs.org/) - Reactive framework.\n- [Vuetify](https://vuetifyjs.com/) - UI components and theming.\n- [Bootstrap](https://getbootstrap.com/) - Design utilities.\n\nReady to build? Start with these examples and dive into the [full docs at wbc-ui.com](https://wbc-ui.com)!"
 
 /***/ }),
@@ -400322,7 +400341,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
 
 
-alert("rrrr");
+
+// alert("rrrr");
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 var routes = [];
 if (true) {
@@ -400412,12 +400432,13 @@ if (true) {
     name: "DynamicWBC"
   }];
 }
-alert("app");
+
+// alert(process.env.NODE_ENV);
 var router;
 if (false) {} else {
   router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
-    mode: "history",
-    // mode: "hash",
+    // mode: "history",
+    mode: "hash",
     base: "/wbc-ui2/",
     // routes: process.env.NODE_ENV === "production" ? null : routes,
     routes: routes
@@ -401244,7 +401265,8 @@ var md = new markdown_it__WEBPACK_IMPORTED_MODULE_8__["default"]({
     return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
   }
 });
-alert("hhhhhhhhhhhhhhh");
+
+// alert("hhhhhhhhhhhhhhh");
 function install(app) {
   var _WBC_$$options;
   var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
