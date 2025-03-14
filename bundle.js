@@ -3597,7 +3597,9 @@ __webpack_require__.r(__webpack_exports__);
             ar: "بيت"
           },
           icon: "mdi-home",
-          to: "/"
+          to: {
+            name: "Home"
+          }
         }
       }, {
         options: {
@@ -3608,8 +3610,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-vuetify",
           // Updated to Vuetify icon
-          to: "/wbc/vuetify",
-          tag: "router-link"
+          to: {
+            name: "WBCVuetify"
+          }
         }
       }, {
         options: {
@@ -3620,8 +3623,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-bootstrap",
           // Updated to Bootstrap icon
-          to: "/wbc/bootstrap",
-          tag: "router-link"
+          to: {
+            name: "WBCBootstrap"
+          }
         }
       }, {
         options: {
@@ -3632,8 +3636,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-markdown",
           // No change, kept Markdown icon
-          to: "/wbc/markdown",
-          tag: "router-link"
+          to: {
+            name: "WBCMarkdown"
+          }
         }
       }, {
         options: {
@@ -3644,8 +3649,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-folder",
           // Changed to a folder icon
-          to: "/wbc/files/local",
-          tag: "router-link"
+          to: {
+            name: "WBCLocalFiles"
+          }
         }
       }, {
         options: {
@@ -3656,8 +3662,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-link",
           // Changed to a link icon
-          to: "/wbc/urls",
-          tag: "router-link"
+          to: {
+            name: "WBCUrls"
+          }
         }
       }, {
         options: {
@@ -3668,8 +3675,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-clipboard-list",
           // Changed to clipboard-list icon
-          to: "/wbc/methods",
-          tag: "router-link"
+          to: {
+            name: "WBCMethods"
+          }
         }
       }, {
         options: {
@@ -3680,8 +3688,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-puzzle-outline",
           // Changed to puzzle-outline
-          to: "/wbc/ext-comps",
-          tag: "router-link"
+          to: {
+            name: "WBCExternalComponents"
+          }
         }
       }, {
         options: {
@@ -3692,8 +3701,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-cogs",
           // Changed to cogs icon for modules
-          to: "/wbc/ext-modules",
-          tag: "router-link"
+          to: {
+            name: "WBCExternalModules"
+          }
         }
       }, {
         options: {
@@ -3704,20 +3714,22 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-folder-edit",
           // Changed to folder-edit icon
-          to: "/wbc/manage/files",
-          tag: "router-link"
+          to: {
+            name: "WBCManageFiles"
+          }
         }
       }, {
         options: {
           html: {
-            en: "WBC langages",
-            fr: "WBC Langages",
-            ar: "wbcLangages"
+            en: "WBC & languages",
+            fr: "WBC & languages",
+            ar: "WBC واللغات"
           },
           icon: "mdi-language-cpp",
           // Changed to C++ language icon
-          to: "/wbc/langage",
-          tag: "router-link"
+          to: {
+            name: "WBCLangage"
+          }
         }
       }, {
         options: {
@@ -3728,8 +3740,9 @@ __webpack_require__.r(__webpack_exports__);
           },
           icon: "mdi-sync",
           // Changed to sync icon for dynamic content
-          to: "/wbc/dynamic",
-          tag: "router-link"
+          to: {
+            name: "DynamicWBC"
+          }
         }
       }, {
         options: {
@@ -3739,7 +3752,9 @@ __webpack_require__.r(__webpack_exports__);
             ar: "عن"
           },
           icon: "mdi-information",
-          to: "/about"
+          to: {
+            name: "Home"
+          }
         }
       }],
       menuItems0: ["<~VTabs| ma-1>", "<VTab|green ma-2>", {
@@ -3750,7 +3765,9 @@ __webpack_require__.r(__webpack_exports__);
             ar: "بيت"
           },
           icon: "mdi-home",
-          to: "/"
+          to: {
+            name: "Home"
+          }
         }
       }, {
         options: {
@@ -3760,7 +3777,9 @@ __webpack_require__.r(__webpack_exports__);
             ar: "عن"
           },
           icon: "mdi-information",
-          to: "/about"
+          to: {
+            name: "About"
+          }
         }
       }]
     };
@@ -400437,8 +400456,8 @@ if (true) {
 var router;
 if (false) {} else {
   router = new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
-    // mode: "history",
-    mode: "hash",
+    mode: "history",
+    // mode: "hash",
     base: "/wbc-ui2/",
     // routes: process.env.NODE_ENV === "production" ? null : routes,
     routes: routes
